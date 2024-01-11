@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<html>
+</html>
 <head> <!-- CSS / JavaScript => 없는 경우에는 생략이 가능 -->
 
 <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
@@ -654,7 +654,64 @@ a{
 		
 	</div> <!-- detail-left 끝 -->
 	
-<div class="detail-right" style="border: 1px solid black; border-collapse: collapse; padding: 10px;">
+	
+	
+<div class="detail-right">
+    <table style="border-collapse: collapse;">
+        <tr>
+            <td>
+                <h6 class="text-center">음식점 추천</h6>
+            </td>
+        </tr>
+        <tr style="padding: 10px; border: 1px solid black; border-collapse: collapse;">
+            <td>
+                <img src="../img/campingreview.png" style="width: 100px;padding: 10px;border-radius: 20px;" class="img-rounded"">
+            </td>
+            <td class="text-center" style="padding: 10px;">
+            	<p class="text-center">음식점 이름</p>
+            	<div class="d-flex mb-2">
+                   <i class="fa fa-star text-secondary"></i>
+                   <i class="fa fa-star text-secondary"></i>
+                   <i class="fa fa-star text-secondary"></i>
+                   <i class="fa fa-star text-secondary"></i>
+                   <i class="fa fa-star"></i>
+                </div>
+            	<p class="text-center">주소</p>
+            </td>
+        </tr>
+        
+        <tr>
+         	<td style="height: 10px;"></td> <!-- 여기에 간격 조절 -->
+        </tr>
+        
+         <tr style="padding: 10px; border: 1px solid black; border-collapse: collapse;">
+            <td>
+                <img src="../img/campingreview.png" style="width: 100px;padding: 10px;border-radius: 20px;" class="img-rounded"">
+            </td>
+            <td class="text-center" style="padding: 10px;">
+            	<p class="text-center">첫번째</p>
+            	<p class="text-center">주소</p>
+            </td>
+        </tr>
+        
+        <tr>
+        	<td style="height: 10px;"></td> <!-- 여기에 간격 조절 -->
+        </tr>
+  
+         <tr style="padding: 10px; border: 1px solid black; border-collapse: collapse;">
+            <td>
+                <img src="../img/campingreview.png" style="width: 100px;padding: 10px;border-radius: 20px;" class="img-rounded"">
+            </td>
+            <td class="text-center" style="padding: 10px;">
+            	<p class="text-center">첫번째</p>
+            	<p class="text-center">주소</p>
+            </td>
+        </tr>
+        
+    </table>
+
+<br>
+
     <table style="border-collapse: collapse;">
         <tr>
             <td>
@@ -779,8 +836,5 @@ function hidePopup() {
   
   
 </script>
-</body>
-</html>
-	
 </body>
 </html>

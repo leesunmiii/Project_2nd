@@ -1,0 +1,134 @@
+html,body {
+   height:100%;
+   margin:0;
+}
+.slide {
+   position:relative;
+   width:100%;
+   height:100%;
+   overflow:hidden;
+}
+ul {
+   width:100%;
+   height:100%;
+   padding:0;
+   margin:0;
+   overflow:hidden;
+}
+li {
+   position:absolute;
+   top:0;
+   left:100%;
+   width:100%;
+   height:100%;
+   overflow:hideen;
+   list-style:none;
+}
+li.first{left:0}
+li img {
+   width:1000px;
+   height:562px;
+}
+.btn-left, .btn-right {
+   position:absolute;
+   top:50%;
+   width:30px;
+   height:30px;
+   margin:0;
+   padding:0;
+   border:5px solid rgba(255,255,255,0.3);
+   border-left:5px solid transparent;
+   border-bottom:5px solid transparent;
+   background:transparent;
+   cursor:pointer;
+}
+button.btn-left {
+   -webkit-transform:rotate(-135deg);
+   transform:rotate(-135deg);
+   left:20px;
+}
+button.btn-right {
+   -webkit-transform:rotate(45deg);
+   transform:rotate(45deg);
+   right:20px;
+}
+button.btn-left:hover,button.btn-right:hover {
+   border-top-color:rgba(255,255,255,0.8);
+   border-right-color:rgba(255,255,255,0.8);
+}
+.index {
+   position:absolute;
+   bottom:3px;
+   left:0;
+   right:0;
+   text-align:center;
+}
+.index-item {
+   display:inline-block;
+   width:15px;
+   height:15px;
+   background:rgba(255,255,255,0.4);
+   border-radius:50%;
+   font:0/0 arial;
+   text-indent:-9999px;
+   overflow:hidden;
+}
+.index-item:hover {
+   background:rgba(255,255,255,0.8);
+}
+.index-item.index-item-on {
+   background:rgba(255,40,74,0.8);
+}
+.controller {
+   position:absolute;
+   right:5px;
+   top:5px;
+   overflow:hidden;
+}
+.btn-play {
+   padding:5px;
+   margin:0;
+   background:none;
+   border:none;
+   font:0/0 arial;
+   cursor:pointer;
+}
+.btn-play:before {
+   content:'';
+   display:block;
+   width:0;
+   height:0;
+   border-top:10px solid transparent;
+   border-bottom:10px solid transparent;
+   border-left:20px solid rgba(255,255,255,0.5);
+}
+.btn-play:hover:before {
+   border-left:20px solid rgba(255,255,255,1);
+}
+.btn-pause {
+   padding:5px;
+   margin:0;
+   background:none;
+   border:none;
+   font:0/0 arial;
+   cursor:pointer;
+}
+.btn-pause:before {
+   content:'';
+   display:inline-block;
+   width:5px;
+   height:20px;
+   background:rgba(255,255,255,0.5);
+}
+.btn-pause:after {
+   content:'';
+   display:inline-block;
+   width:5px;
+   height:20px;
+   margin-left:5px;
+   background:rgba(255,255,255,0.5);
+}
+
+.btn-pause:hover:before, .btn-pause:hover:after {
+   background:rgba(255,255,255,1);
+}

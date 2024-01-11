@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<html>
+</html>
 <head> <!-- CSS / JavaScript => 없는 경우에는 생략이 가능 -->
 
 <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
@@ -769,8 +769,5 @@ function hidePopup() {
   
   
 </script>
-</body>
-</html>
-	
 </body>
 </html>
